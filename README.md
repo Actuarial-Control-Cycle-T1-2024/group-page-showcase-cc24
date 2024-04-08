@@ -14,6 +14,7 @@
 # Report Overview
 
 ## Table of Contents
+* [Project Summary](#project-summary)
 * [Objectives](#objectives)
     * [Main Objectives](#main-objectives)
     * [Metrics](#metrics)
@@ -37,6 +38,8 @@
     * [External Data and Data Limitations](#external-data-and-data-limitations)
 * [Appendix](#appendix)
 
+## Project Summary
+The main purpose of the project is to decrease the mortality rate of current 
 
 ## Objectives
 
