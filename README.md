@@ -13,6 +13,13 @@
 
 # Report Overview
 
+## Table of Contents
+* [Objectives](#objectives)
+* [Program Design](#program-design)
+* [Pricing and Costs](#pricing-and-costs)
+* [Risk and Risk Mitigation](#risk-and-risk-mitigation)
+* [Assumptions](#assumptions)
+
 ## Objectives
 
 Main Objectives
@@ -58,7 +65,7 @@ The criteria upon which the Lumarian Airline will be selected include having a p
 
 Short-term evaluations will occur in 3-5 years. This will provide sufficient time for mortality reductions, through early disease detection, to occur and enable awareness of the program, through word-of-mouth and media outlets, to contribute towards a higher customer base for SuperLife Insurance. Long-term evaluations will occur in 5-10 years. This period was selected to facilitate the observation of trends in mortality data as well as the risk profile and rate of new policyholders.
 
-## Pricing/Costs
+## Pricing and Costs
 
 **Death Benefits (DB) calculation**
 
