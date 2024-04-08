@@ -15,24 +15,29 @@
 
 ## Table of Contents
 * [Objectives](#objectives)
+    * [Main Objectives](#main-objectives)
+    * [Metrics](#metrics)
+    * [Exploratory Data Analysis and Data Cleaning](#exploratory-data-analysis-and-data-cleaning)
 * [Program Design](#program-design)
+    * [Partnership](#partnership)
+    * [Evaluation](#evaluation)
 * [Pricing/Costs](#pricingcosts)
 * [Risk and Risk Mitigation](#risk-and-risk-mitigation)
 * [Assumptions](#assumptions)
 
 ## Objectives
 
-Main Objectives
+### Main Objectives
 * Reduce the mortality rate of current SuperLife policyholders 
 * Attract and retain healthy and health-conscious clients 
 * Increase SuperLife's economic value
 
-Metrics 
+### Metrics 
 * Extent of reductions in mortality rate
 * Profitability of the program
 * Customer acquisition rates
 
-**EXPLORATORY DATA ANALYSIS (EDA) & DATA CLEANING**
+### Exploratory Data Analysis and Data Cleaning
 
 The file was loaded straight into R after downloading in their original format. The in force dataset was csv and the rest were xlsx Excel files. Data cleaning included removing empty rows and columns so that the data could be displayed better in RStudio. 
 
@@ -59,17 +64,17 @@ We propose a joint venture between SuperLife Insurance and a Lumarian airline co
 
 The travel-based incentive program is designed to support the travel plans of policyholders, enabling them to spend and accumulate points across years to suit their unique schedules and reasons for travel. Surveys indicate that people who have entered retirement or have children are likely to increase the frequency of air travel when ticket prices decrease by just 20 pounds (AUD 38) (Davison & Ryley, 2013). Life insurance products are primarily aimed at these two demographics as the policyholder would require a beneficiary and will likely maintain a life insurance policy post-retirement. Additionally, the GDP per capita of the United Kingdom, in which the study was produced, is larger than that of Lumaria, suggesting that the economic response to discounted air travel in Lumaria may be more pronounced than that in the survey. Consequently, the program's flexibility and the reward system's relevance would produce a compelling incentive to encourage participation in this program. 
 
-**Partnership**
+### Partnership
 
 The criteria upon which the Lumarian Airline will be selected include having a positive reputation, reasonable environmental awareness and an intention to expand its customer base. The joint venture will encourage current SuperLife policyholders to use the selected Airline as the checklist program exclusively awards travel points to this Airline. Through this, SuperLife Insurance will provide marketing for the Airline and additional customers and revenue. In exchange, the two partner companies will share the expenses incurred from the travel points.
 
-**Evaluation**
+### Evaluation
 
 Short-term evaluations will occur in 3-5 years. This will provide sufficient time for mortality reductions, through early disease detection, to occur and enable awareness of the program, through word-of-mouth and media outlets, to contribute towards a higher customer base for SuperLife Insurance. Long-term evaluations will occur in 5-10 years. This period was selected to facilitate the observation of trends in mortality data as well as the risk profile and rate of new policyholders.
 
 ## Pricing/Costs
 
-**Death Benefits (DB) calculation**
+### Death Benefits Calculation
 
 An important part of finding the profit for each year is to find the death benefit for that particular year. In this case, prediction is more important than inference, but the latter is still always useful to have to communicate to managers and stakeholders how the result was obtained. Note that whilst the current year may be 2024, that does not matter because the most recent data available is up to and including 2023 only. Hence there is no randomness in calculating DB for 2023, but there is for 2024 onwards due to the uncertainty of the future lifetimes. The total death benefits (DB) (aggregating all policyholders who are still in force) in a particular year T is given by
 
@@ -77,7 +82,7 @@ An important part of finding the profit for each year is to find the death benef
 
 From the in force data the face amounts of both policies are varying but are known for sure (deterministic). The randomness comes from the variables inside the indicator functions I(.) above. So to calculate profits, one needs DB. But since the latter is random, the best one can do is find its expected value E[DB] using machine learning (ML) techniques. For full details and maths derivations see Appendix 2.
 
-**Economic Value**
+### Economic Value
 
 The Present Value of Profit for each policy type is calculated by categorising our data into 4 different age groups 26 ~35, 36 ~ 45, 46 ~ 55, and 56 ~ 65 with different face amounts. Where the formula used to calculate is Pt – Ct – Et – CLt – CRt + It (Details for each case refer to appendix). Premiums, commission, reserve increase, and expenses are set by assumption. When the policyholder is integrated into the program, the mortality cost associated with the individual is reduced due to the decrease in mortality rate. Thus, PV of profit will decrease after the program is implemented if the mortality rate decreases the benefit claims.
 
@@ -88,7 +93,7 @@ Figure 3 (left) and Figure 4 (right) below
 For the T20 assurance above on the left (Figure 3), there are now less deaths within the 20 year term with the program compared to without. This is because with the predicted increase in health check ups, people have increased awareness and are able to detect possibly fatal diseases earlier. This leads them to act and seek medical intervention before the condition deteriorates. The biggest improvement is in the 46-55 age group, where the PV of profit jumps from 800 million Lumarian Crowns (LC) to 2400 million. 
 For the SPWL assurance on the top right (Figure 4), initially for the younger age group, the aggregate PV of profit is more or less similar pre and post program. As younger Lumarians are more healthy and have lower hazard rates than older ones (all else equal), health checks usually would reveal no fatal diseases at that point in time. So the program would not do much to decrease the mortality of younger people. The gap of improvement for the 3 older age groups seems to be around the same, with a 1.15 billion extra PV profit after program implementation. This means that those health checks really do help older generations detect and combat diseases early, meaning on average they die later leading to lower PV of death benefit.
 
-**Mortality Savings**
+### Mortality Savings
 
 Mortality Savings are calculated by the differences between PV of Profit before the program was implemented and after. The graph below on the left (Figure 5) below clearly shows that the 20-year term insurance mortality savings increased across older age groups. However, for the SPWL insurance on the bottom right (Figure 6), the mortality saving is decreasing then spiking at age group 46-55 and then decreasing once again. Although the program being implemented does have a positive effect on the mortality savings as demonstrated by the positive magnitudes, it does not seem to be as effective as the 20-year term. 
 
@@ -96,7 +101,7 @@ Figure 5 (left) and Figure 6 (right) below
 
 <img width="929" alt="Screenshot 2024-04-07 at 11 05 25 pm" src="https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-cc24/assets/68623529/cae92be9-d054-4ac2-9fe3-03d32387d086">
 
-**Pricing Changes**
+### Pricing Changes
 
 Implementing a dynamic pricing model to adjust prices based on real-time changes in various factors such as age group, mortality savings, economic value, and market conditions can be an ideal method in optimising sales.For instance,  adjusting prices to attract customers in age brackets where mortality savings are higher, SuperLife can effectively capitalise on the marketability of these policies. This can be done by offering more competitive premiums for younger age groups, where mortality savings are typically lower, can incentivise customers to purchase policies, thereby optimising sales and profitability.
 
