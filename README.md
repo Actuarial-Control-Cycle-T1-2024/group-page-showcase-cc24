@@ -170,19 +170,19 @@ The travel points expense is only incurred once the policyholder completes the c
 
 **Pricing**
 
-. Investment return used to calculate the present value of profit is 4% higher than the interest rate for 20-year term Insurance and 5% higher for Single Whole Life Insurance (SPWL). The reason that SPWL Insurance investment rate is higher is that it invested in a longer period thus higher return
+* Investment return used to calculate the present value of profit is 4% higher than the interest rate for 20-year term Insurance and 5% higher for Single Whole Life Insurance (SPWL). The reason that SPWL Insurance investment rate is higher is that it invested in a longer period thus higher return
 
-. Premiums are calculated by setting the pre-program profit margin to be 5%
+* Premiums are calculated by setting the pre-program profit margin to be 5%
 
-. Commissions are assumed to be 80% of the premium for duration 1 and 2% afterward
+* Commissions are assumed to be 80% of the premium for duration 1 and 2% afterward
 
-. Pre-programme expenses are assumed to be 200 Crowns for duration 1 and 25 Crowns afterwards
+* Pre-programme expenses are assumed to be 200 Crowns for duration 1 and 25 Crowns afterwards
 
-. Post-Programme Expenses are assumed to be 200 + expenses load*80 Crowns for duration 1 and 25 Crowns afterwards. Where the expense load is the probability that the age group policyholder will finish the checklist is 50% for the age group 26-35,  60% for the age group 36-45, 70% for the age group 46-55, and 85% for the age group 56-65
+* Post-Programme Expenses are assumed to be 200 + expenses load*80 Crowns for duration 1 and 25 Crowns afterwards. Where the expense load is the probability that the age group policyholder will finish the checklist is 50% for the age group 26-35,  60% for the age group 36-45, 70% for the age group 46-55, and 85% for the age group 56-65
 
-. Premium, commission, reserve increase and interest are assumed to be constant across pre and post program implementation
+* Premium, commission, reserve increase and interest are assumed to be constant across pre and post program implementation
 
-. The effect of two interventions on mortality are assumed to be independent. 
+* The effect of two interventions on mortality are assumed to be independent. 
 
 **EXTERNAL DATA AND DATA LIMITATIONS**
 
