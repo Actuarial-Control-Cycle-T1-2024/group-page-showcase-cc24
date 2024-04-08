@@ -7,7 +7,7 @@
 # Group Members
 * Zi Qing (Nick) Ng
 * Crystal Chong
-* Yaxiao Albert Liu
+* Yaxiao (Albert) Liu
 * Natalie Khalil 
 * Hasibul Alam
 
