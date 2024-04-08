@@ -22,8 +22,21 @@
     * [Partnership](#partnership)
     * [Evaluation](#evaluation)
 * [Pricing/Costs](#pricingcosts)
+    * [Death Benefits Calculation](#death-benefits-calculation)
+    * [Economic Value](#economic-value)
+    * [Mortality Savings](#mortality-savings)
+    * [Pricing Changes](#pricing-changes)
 * [Risk and Risk Mitigation](#risk-and-risk-mitigation)
+    * [Risks](#risks)
+    * [Key Risk Mitigation Strategies](#key-risk-mitigation-strategies)
+    * [Sensitivity Analysis](#sensitivity-analysis)
 * [Assumptions](#assumptions)
+    * [Modelling](#modelling)
+    * [Program Cost](#program-cost)
+    * [Pricing](#pricing)
+    * [External Data and Data Limitations](#external-data-and-data-limitations)
+* [Appendix](#appendix)
+
 
 ## Objectives
 
@@ -107,14 +120,14 @@ Implementing a dynamic pricing model to adjust prices based on real-time changes
 
 ## Risk and Risk Mitigation 
 
-**Risks**
+### Risks
 
 In the case of implementing a health program and partnering with a chosen airline, an RDC categorisation method was used to classify the risks.
 
 <img width="361" alt="Screenshot 2024-04-07 at 11 47 33 pm" src="https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-cc24/assets/68623529/86cf144a-6843-4472-a0c7-d2f2eb814e96">
 
 
-**Key Risk Mitigation Strategies**
+### Key Risk Mitigation Strategies
 
 **Fraudulence Risk:**
 
@@ -140,7 +153,7 @@ It is highly unlikely that the interest rate will rise significantly all of a su
 * Providing training to employees on cybersecurity best practices to minimise the risk of human error leading to vulnerabilities and malpractices.
 
 
-**Sensitivity Analysis**
+### Sensitivity Analysis
 
 In order to test whether assumptions may be too unrealistic, sensitivity analysis is performed on discount (interest) rates, expenses, and percentage increase/decrease in new customers. 
 
@@ -177,19 +190,19 @@ In other words, any increase in customers can magnify the difference in profit b
 
 ## Assumptions
 
-**Modelling**
+### Modelling
 
 That insurers do not wrongly classify deaths as lapses in T20 premiums. Sometimes in life insurance, the policyholder dies but no one reports the event to the life insurer. This usually occurs when that person is living by themselves with no close family or friends. For simplicity that event is excluded here. So when someone lapses, they are alive at that time. Further when they lapse they are no longer eligible for death benefit (DB), hence data is no longer collected on them
 
 Ages and years are treated as discrete variables for modelling. Of course theoretically one can have fractional years (for example 0.5 years), but monthly and daily data are not given in the dataset anyways. For instance if someone is alive during 2023, then assume they are alive for the entire year.
 
-**Program Cost**
+### Program Cost
 
 Lumaria has a universal healthcare system. Similar to other countries with a universal healthcare system, such as Australia and Canada, it is assumed that Lumarian health check-ups including blood pressure readings, cholesterol level tests and age-specific preventative scans, are provided without upfront fees. 
 
 The travel points expense is only incurred once the policyholder completes the checklist and earns the reward. Therefore, the participation rate in the checklist program impacts the total expenses for SuperLife insurance. Travel is assumed to be an appropriate incentive for all ages, hence the willingness to complete the health check-ups will determine the participation rate in the program. The checklist participation rate was informed by the participation rate in Australian government-funded cancer screening programs, namely bowel cancer, breast cancer and cervical cancer. Similar to Lumaria’s health care, these programs were free, focused on early disease detection and were reasonably marketed as this program would be among SuperLife policyholders. The underlying trend in the data indicated increased participation with age, which was replicated in the assumed participation rate for the checklist program. Additionally, the participation rates for the screening programs were roughly increased by a factor of 0.3 to account for the incentivised nature of the checklist program and adjusted to a more linear trend for ease of use. 
 
-**Pricing**
+### Pricing
 
 * Investment return used to calculate the present value of profit is 4% higher than the interest rate for 20-year term Insurance and 5% higher for Single Whole Life Insurance (SPWL). The reason that SPWL Insurance investment rate is higher is that it invested in a longer period thus higher return
 
@@ -205,7 +218,7 @@ The travel points expense is only incurred once the policyholder completes the c
 
 * The effect of two interventions on mortality are assumed to be independent. 
 
-**EXTERNAL DATA AND DATA LIMITATIONS**
+### External Data and Data Limitations
 
 Additional Data Used 
 Participation rate data for Australian government-funded cancer screening programs was used to determine the probability that policyholders will complete the health checklist. This data was from the Australian Institute of Health and Welfare (AIHW). This was incorporated in the calculation of the expenses of the program. 
@@ -217,7 +230,7 @@ The Lumaria mortality table is provided according to integer ages only. Policyho
 
 
 
-**Appendix**
+## Appendix
 
 For the R code and Excel spreadsheets used in the analysis, please see those files in GitHub classroom. Generative AI was not used in this assignment.
 
