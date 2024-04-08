@@ -39,7 +39,7 @@
 * [Appendix](#appendix)
 
 ## Project Summary
-The main purpose of the project is to decrease the mortality rate of current 
+The main purpose of the project is to decrease the mortality rate of current SuperLife policyholders, and also increase the profit of the company. Thus, a Let Your Health Work For You program has purposed by our team which provides Health Check and Travel Discounts Scheme to customers. 
 
 ## Objectives
 
