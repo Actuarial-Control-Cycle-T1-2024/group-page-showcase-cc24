@@ -124,6 +124,21 @@ Implementing a dynamic pricing model to adjust prices based on real-time changes
 
 In the case of implementing a health program and partnering with a chosen airline, an RDC categorisation method was used to classify the risks.
 
+| Risk    | Explanations |
+| ------- | ----------------- | 
+| Fraudulence Risk | There is a risk that unethical doctors may fake health checks for friends or relatives who then purchase the insurance product, potentially causing the pricing model to underestimate mortality.|
+| Strategic Risk   | There is a risk that the program may not attract as many policyholders as predicted and may lead to a slower (or even possibly negative) growth in SuperLife’s customer base and revenue. Since this is the first time an intervention program like this has been implemented, this risk is increased because there is no past data to draw from.|
+| Reputational Risk |If the selected Lumarian airline fails to meet customer expectations and has a negative brand image (now or in the future), SuperLife’s reputation could be tarnished by the partnership.|
+| Environmental Risk | Partnering with an airline that has a bad environmental presence may lead to backlash from existing and potential customers. It can also lead to regulation issues.|
+| Operational Risk   | Disruptions and failures within SuperLife's internal processes and people. This includes administrative, software implementation failures which threatens the profitability of the company. |
+| Discrimination Risk   | The programme’s incentives inherently discouraging high-risk profiles from voluntarily participating |
+| Equity Risk | The risk of disproportionate impacts or inequities among program participants. |
+| Economic Risk | At higher inflation rates, purchasing power would decline, and investment returns are likely to be negatively impacted. From past data, the annual inflation rate ranged from 0.19% to 12.62%, with a sample mean of 4.3%. |
+| Regulatory Risk | The risk of changes in government regulations or policies that could impact the insurance industry or the health incentive program. |
+| Technological Risk | The risk of technological failures or disruptions that could affect the delivery or effectiveness of the health incentive program. |
+| Legal Risk | The risk of legal challenges or lawsuits related to the health incentive program. |
+
+
 <img width="361" alt="Screenshot 2024-04-07 at 11 47 33 pm" src="https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-cc24/assets/68623529/86cf144a-6843-4472-a0c7-d2f2eb814e96">
 
 
