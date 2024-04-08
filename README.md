@@ -39,7 +39,13 @@
 * [Appendix](#appendix)
 
 ## Project Summary
-The main purpose of the project is to decrease the mortality rate of current SuperLife policyholders, and also increase the profit of the company. Thus, a Let Your Health Work For You program has purposed by our team which provides Health Check and Travel Discounts Scheme to customers. 
+The main purpose of our project is to mitigate the mortality rate among current SuperLife policyholders and to enhance the profitability of the company. To achieve these goals, our team has devised the "Let Your Health Work For You" program, which offers a comprehensive Health Check and Travel Discounts Scheme to customers.
+
+The implementation of this healthcare initiative is anticipated to yield significant reductions in mortality rates across various age groups. By providing proactive health check-ups and promoting healthier lifestyle choices, we aim to decrease the incidence of critical illnesses and enhance overall well-being among policyholders. Consequently, this will lead to a reduction in benefit payments for the company, contributing to improved financial performance.
+
+Additionally, the introduction of the Travel Discounts Scheme serves as an enticing incentive for both existing and potential customers. This feature not only enhances the value proposition of SuperLife policies but also attracts a broader clientele base. The allure of discounted travel opportunities incentivizes more individuals to invest in insurance coverage, thereby bolstering the company's profitability.
+
+In summary, the "Let Your Health Work For You" program aligns strategic objectives of decreasing mortality rates and increasing company profits. Through a proactive approach to healthcare and innovative customer incentives, we anticipate significant positive outcomes for SuperLife and its policyholders.
 
 ## Objectives
 
