@@ -47,6 +47,8 @@ Figure 1 below
 
 From above, the horizontal black line denotes the median, and the black star the mean of each cause of death. The median and mean lifespans for each disease are quite similar. Outliers are shown as individual dots when they are Q3 + 1.5*IQR or greater, or Q1-1.5*IQR or smaller. The disease O00-O99 has obviously a very small IQR (spread), and the lifespans of those afflicted are very short. This could be quite a severe disease that kills people at younger ages, however its frequency will be explored more in the corresponding barplot below. According to the ICD-10, O00-O99 refers to “personal history of complications of pregnancy, childbirth and the puerperium”.
 
+Figure 2 below
+
 <img width="528" alt="Screenshot 2024-04-07 at 11 03 35 pm" src="https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-cc24/assets/68623529/df6f015a-a6fd-4f64-9315-0f95a2f1c39f">
 
 From figure 2 above, note that the rates increase and decrease together and seem to be highly correlated with one another. In 2015 when the 1 year risk free (r.f) annual spot rate and overnight rate starts to increase again. Interestingly, the 10-year r.f annual spot rate still has not started increasing yet even at 2023. For more EDA plots and further analysis, see Appendix 1.
