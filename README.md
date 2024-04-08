@@ -39,7 +39,7 @@
 * [Appendix](#appendix)
 
 ## Project Summary
-The main purpose of our project is to mitigate the mortality rate among current SuperLife policyholders and to enhance the profitability of the company. To achieve these goals, our team has devised the "Let Your Health Work For You" program, which offers a comprehensive Health Check and Travel Discounts Scheme to customers.
+The main purpose of our project is to reduce the mortality rate among current SuperLife policyholders and to enhance the profitability of the company. To achieve these goals, our team has devised the "Let Your Health Work For You" program, which offers a comprehensive Health Check and Travel Discounts Scheme to customers.
 
 The implementation of this healthcare initiative is anticipated to yield significant reductions in mortality rates across various age groups. By providing proactive health check-ups and promoting healthier lifestyle choices, we aim to decrease the incidence of critical illnesses and enhance overall well-being among policyholders. Consequently, this will lead to a reduction in benefit payments for the company, contributing to improved financial performance.
 
@@ -144,7 +144,6 @@ In the case of implementing a health program and partnering with a chosen airlin
 | Regulatory Risk | The risk of changes in government regulations or policies that could impact the insurance industry or the health incentive program. |
 | Technological Risk | The risk of technological failures or disruptions that could affect the delivery or effectiveness of the health incentive program. |
 | Legal Risk | The risk of legal challenges or lawsuits related to the health incentive program. |
-
 
 
 
