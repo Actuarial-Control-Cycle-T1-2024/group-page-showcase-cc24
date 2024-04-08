@@ -81,6 +81,8 @@ From the in force data the face amounts of both policies are varying but are kno
 
 The Present Value of Profit for each policy type is calculated by categorising our data into 4 different age groups 26 ~35, 36 ~ 45, 46 ~ 55, and 56 ~ 65 with different face amounts. Where the formula used to calculate is Pt – Ct – Et – CLt – CRt + It (Details for each case refer to appendix). Premiums, commission, reserve increase, and expenses are set by assumption. When the policyholder is integrated into the program, the mortality cost associated with the individual is reduced due to the decrease in mortality rate. Thus, PV of profit will decrease after the program is implemented if the mortality rate decreases the benefit claims.
 
+Figure 3 (left) and Figure 4 (right) below
+
 <img width="936" alt="Screenshot 2024-04-07 at 11 04 51 pm" src="https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-cc24/assets/68623529/84137b83-caa8-456d-88d5-b11b132ad4f7">
 
 For the T20 assurance above on the left (Figure 3), there are now less deaths within the 20 year term with the program compared to without. This is because with the predicted increase in health check ups, people have increased awareness and are able to detect possibly fatal diseases earlier. This leads them to act and seek medical intervention before the condition deteriorates. The biggest improvement is in the 46-55 age group, where the PV of profit jumps from 800 million Lumarian Crowns (LC) to 2400 million. 
@@ -90,6 +92,7 @@ For the SPWL assurance on the top right (Figure 4), initially for the younger ag
 
 Mortality Savings are calculated by the differences between PV of Profit before the program was implemented and after. The graph below on the left (Figure 5) below clearly shows that the 20-year term insurance mortality savings increased across older age groups. However, for the SPWL insurance on the bottom right (Figure 6), the mortality saving is decreasing then spiking at age group 46-55 and then decreasing once again. Although the program being implemented does have a positive effect on the mortality savings as demonstrated by the positive magnitudes, it does not seem to be as effective as the 20-year term. 
 
+Figure 5 (left) and Figure 6 (right) below
 
 <img width="929" alt="Screenshot 2024-04-07 at 11 05 25 pm" src="https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-cc24/assets/68623529/cae92be9-d054-4ac2-9fe3-03d32387d086">
 
@@ -142,6 +145,8 @@ In order to test whether assumptions may be too unrealistic, sensitivity analysi
 Discount rates ranging close to the assumed rate (2% - 5%) and 97.5% VaR (upper tail) are tested for both the whole life and 20-year insurance product. Test results show that compared to 20-year term insurance, the profitability of whole life insurance is more sensitive to interest rate changes. 
 Additionally, insurance for older age groups generally is more sensitive to price change than younger age group due to a worse mortality. However, for each insurance product sold, the new program is able to generate a higher profit margin for all tested interest rates. 
 
+Figure 7 below
+
 <img width="388" alt="Screenshot 2024-04-07 at 11 12 10 pm" src="https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-cc24/assets/68623529/2c65b140-c84d-48e7-8915-06a87daea367">
 
 As seen above (Figure 7), regardless of interest rate and age group, the new product for whole life insurance is able to generate a higher profit margin. Moreover, the profit margin roughly forms a linear relationship as interest rates increase. The profit margin of the new program remains positive as long as interest rate is above 3%, which has more than 85% possibility of happening. So in other words, the degree of certainty that our proposed program can generate a positive profit and exceed profit without proposed program is greater than 85%.
@@ -150,9 +155,11 @@ As seen above (Figure 7), regardless of interest rate and age group, the new pro
 
 In the hypothetical scenario that the budgeted expense per policy year is too little for each policy sold, a test was run on 1.5 times and 2 times the original expense respectively. The insurance products for the 26-35 age group is presented below (see other age groups in appendix). 
 
+Figure 8 (left) and Figure 9 (right) below
+
 <img width="911" alt="Screenshot 2024-04-07 at 11 06 40 pm" src="https://github.com/Actuarial-Control-Cycle-T1-2024/group-page-showcase-cc24/assets/68623529/79f803dc-7ae6-4fd9-b04b-d54dabf915cd">
 
-Figure 8 is on the left and figure 9 on the right. The graphs show that when multiplying the assumed annual expense by 1.5, the impact is minimal in SPWL, as well as the T20 for higher face values. However this impact is catastrophic for the 100,000 and 50,000 face value policies as it may cause a significantly lower, or even a negative profit margin. The impact on whole life insurance with other age groups are not as drastic as shown in Figure 9, but for both 36-45 and 46-55 age groups, profit margin less than halved when annual expenses are doubled. Thus, if expenses are indeed underestimated, the pricing solution would need to be re-evaluated. 
+The graphs show that when multiplying the assumed annual expense by 1.5, the impact is minimal in SPWL, as well as the T20 for higher face values. However this impact is catastrophic for the 100,000 and 50,000 face value policies as it may cause a significantly lower, or even a negative profit margin. The impact on whole life insurance with other age groups are not as drastic as shown in Figure 9, but for both 36-45 and 46-55 age groups, profit margin less than halved when annual expenses are doubled. Thus, if expenses are indeed underestimated, the pricing solution would need to be re-evaluated. 
 
 **Potential Decrease in New Customers**
 
