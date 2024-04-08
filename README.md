@@ -16,7 +16,7 @@
 ## Table of Contents
 * [Objectives](#objectives)
 * [Program Design](#program-design)
-* [Pricing/Costs](#pricing/costs)
+* [Pricing/Costs](#pricingcosts)
 * [Risk and Risk Mitigation](#risk-and-risk-mitigation)
 * [Assumptions](#assumptions)
 
